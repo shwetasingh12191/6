@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="Library management.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+    </div>
+  </nav>
+  <header>
+    <h1>Library Management System</h1>
+  </header>
+  <main>
+    <section class="book-list">
+      <h2>Library Books</h2>
+      <ul id="books-list">
+        <!-- Book details will be dynamically inserted here -->
+      </ul>
+    </section>
+    
+    <section class="add-book">
+      <h2>Add New Book</h2>
+      <form id="add-book-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="id" placeholder="ID" required>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+  </main>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
